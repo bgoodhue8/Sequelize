@@ -23,4 +23,4 @@ async function bootServer() {
   }
 }
 
-bootServer();
+bootServer(app.use(express.static('public')));
